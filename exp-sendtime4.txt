@@ -1,0 +1,4 @@
+%#simTime nrNodes TxPower
+3600000,100,13, 0 
+%#SendTime SimTime nrNodes PayloadSize nrCollisions nrTransmissions
+600000,20,16,623
