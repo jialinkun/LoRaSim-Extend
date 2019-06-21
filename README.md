@@ -52,8 +52,11 @@ set to 1 to enable the full collision check, 0 to use a simplified check (defaul
 ### Output
 
 The result of every simulation run will be appended to a file named expX.dat, whereby X is the experiment number. The file contains a space separated table of values for nodes, collisions, transmissions and total energy spent. <br>
+<br>
 The result of every simulation run will be appended to a file named exp-sendtimeX.txt, whereby X is the experiment number. The file contains a space separated table of values for nodes, collisions, payload and message generataion rate.<br>
+<br>
 The result of every simulation run will be appended to a file named exp-paylosdX.txt, whereby X is the experiment number. The file contains a space separated table of values for nodes, collisions, payload and toall transmissions.<br>
+<br>
 The data file can be easily plotted using e.g. gnuplot.
 
 # License
